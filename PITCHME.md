@@ -67,7 +67,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 #### Finite-difference Julia example
 
-- Finite-difference examples exist for C, C++, Fortran 90, and Python
+- Finite-difference examples exist for C, C++, Fortran and Python
 
 - These codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
 
