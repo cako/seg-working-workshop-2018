@@ -13,11 +13,16 @@ August 11, 2018
 
 ---
 
+<!-- .slide: class="center" -->
+# Python
+
+---
+
 ## sfpgreywfl
 
 #### A timely solution for modelling afficcionados
 
-- Plots wavefields on top of background models
+- Plot wavefields on top of background models
 
 - Useful for identifying illumination issues, tunneling, etc.
 
@@ -52,6 +57,10 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 ...and many other options
 
+---
+
+<!-- .slide: class="center" -->
+# Julia
 ---
 
 ## afdm.jl
