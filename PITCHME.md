@@ -57,6 +57,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 #### afdm.jl snippets
 
+Load data:
 ```julia
 import m8r
 ww, nw, dw, ow, lw, uw = m8r.rsf_read("in")
