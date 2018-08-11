@@ -57,10 +57,40 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 #### afdm.jl snippets
 
-Load data:
 ```julia
 import m8r
+
+# Get file names
+vel = m8r.getstring("vel")
+ref = m8r.getstring("ref")
+
+# Load wavelet, velocity and sources
 ww, nw, dw, ow, lw, uw = m8r.rsf_read("in")
 vv, nv, dv, ov, lv, uv = m8r.rsf_read(vel)
 rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
 ```
+
+---
+#### afdm.jl snippets
+
+```julia
+for it in 1:nt
+    ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx .+ idz) .+
+    c1.*(uo[3:end-2, 2:end-3] .+ uo[3:end-2, 4:end-1]).*idx .+
+    c2.*(uo[3:end-2, 1:end-4] .+ uo[3:end-2, 5:end  ]).*idx .+
+    c1.*(uo[2:end-3, 3:end-2] .+ uo[4:end-1, 3:end-2]).*idz .+
+    c2.*(uo[1:end-4, 3:end-2] .+ uo[5:end,   3:end-2]).*idz
+
+    # inject wavelet
+    ud = ud .- ww[it] .* rr
+
+    # scale by velocity
+    ud = ud .* vv .* vv
+    up = 2.*uo .- um .+ ud .* dt2
+    um = uo
+    uo = up
+    
+    m8r.floatwrite(vec(uo), nz*nx, Fo)
+end
+```
+
