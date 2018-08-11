@@ -112,6 +112,7 @@ Follow me at GitHub: [@cako](https://github.com/cako/)
 <br>
 <br>
 <span style="font-size: 0.5em">
-Find this presentation at: https://github.com/cako/seg-working-workshop-2018
-View this presentation at: https://gitpitch.com/cako/seg-working-workshop-2018
+Find this presentation at: [https://github.com/cako/seg-working-workshop-2018](https://github.com/cako/seg-working-workshop-2018)
+
+View this presentation at: [https://gitpitch.com/cako/seg-working-workshop-2018](https://gitpitch.com/cako/seg-working-workshop-2018)
 </span>
