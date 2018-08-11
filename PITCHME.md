@@ -1,6 +1,10 @@
+<!-- .slide: class="center" -->
+
 ## HoustonWW 2018
 
 ### Extending Madagascar tools
+
+Carlos Alberto da Costa Filho
 
 ---
 
