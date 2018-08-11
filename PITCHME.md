@@ -73,7 +73,8 @@ rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
 ---
 #### afdm.jl snippets
 
-@size[2em]( ```julia
+<span style="font-size:0.6em">
+```julia
 for it in 1:nt
     ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx .+ idz) .+
     c1.*(uo[3:end-2, 2:end-3] .+ uo[3:end-2, 4:end-1]).*idx .+
@@ -92,5 +93,5 @@ for it in 1:nt
     
     m8r.floatwrite(vec(uo), nz*nx, Fo)
 end
-```)
+```
 
