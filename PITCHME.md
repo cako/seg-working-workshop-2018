@@ -103,6 +103,15 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 ![afdm.jl wavefield](https://s3.eu-west-2.amazonaws.com/cdacosta-londonbucket/wavefield_afdm.mp4)
 
 ---
+
+## Next steps
+
+- Julia v1.0 has come out, API must be updated!
+
+- Would be nice if `sfpgreywfl` could also plot sources/receivers
+
+
+---
 <!-- .slide: class="center" -->
 ## Thank you for your attention!
 
