@@ -111,7 +111,7 @@ Follow me at GitHub: [@cako](https://github.com/cako/)
 <br>
 <br>
 <br>
-<divstyle="font-size: 0.5em">
+<div style="font-size: 0.5em">
 Find this presentation at: [https://github.com/cako/seg-working-workshop-2018](https://github.com/cako/seg-working-workshop-2018)
 </div>
 <div style="font-size: 0.5em">
