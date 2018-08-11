@@ -26,11 +26,15 @@
 
 ```bash
 sfpgreywfl < wavefield.rsf
+```
 
 sfpgreywfl < wavefield.rsf bg=velocity.rsf
+```
 
+```bash
 sfpgreywfl < wavefield.rsf bg=velocity.rsf \
-    wflcmap=seismic title="Wavefield" barlabel="Velocity (m/s)" \
+    wflcmap=seismic title="Wavefield" \
+    barlabel="Velocity (m/s)" \
     tmin=0.08 savefile=wavefield.gif
 ```
 
