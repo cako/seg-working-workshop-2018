@@ -105,3 +105,10 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 ---
 <!-- .slide: class="center" -->
 ## Thank you for your attention!
+
+Follow me at GitHub: [@cako](https://github.com/cako/)
+
+<br>
+<span style="font-size: 2em">
+Find this presentation at: github.com/cako/seg-working-workshop-2018
+</span>
