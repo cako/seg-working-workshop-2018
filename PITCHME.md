@@ -1,8 +1,8 @@
 <!-- .slide: class="center" -->
 
-## HoustonWW 2018
+# HoustonWW 2018
 
-#### Extending Madagascar tools
+### Extending Madagascar tools
 
 <br>
 <div style="font-size: 0.5em">
