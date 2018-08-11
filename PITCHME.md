@@ -1,10 +1,10 @@
-# HoustonWW 2018
+## HoustonWW 2018
 
 ### Extending Madagascar tools
 
 ---
 
-## sfpgreywfl wavefield plotter
+### sfpgreywfl wavefield plotter
 
 ### A timely solution for modelling afficcionados
 
