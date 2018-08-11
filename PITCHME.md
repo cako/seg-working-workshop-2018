@@ -43,48 +43,23 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 ---
 
-## awfd
+## afdm
 
-#### Contributing Julia examples
+#### Finite-difference Julia example
 
 - Finite-difference examples exist for C, C++, Fortran90, and Python
 
+- These codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
+
 - With a Julia API we can now contribute an example in Julia
-
-- Testing codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
 
 ---
 
-### Questions?
+#### afdm.jl snippets
 
-<br>
-
-@fa[twitter gp-contact](@gitpitch)
-
-@fa[github gp-contact](gitpitch)
-
-@fa[medium gp-contact](@gitpitch)
-
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
-@title[Download this Template!]
-
-### <span class="white">Get your presentation started!</span>
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/white)
-
+```julia
+import m8r
+ww, nw, dw, ow, lw, uw = m8r.rsf_read("in")
+vv, nv, dv, ov, lv, uv = m8r.rsf_read(vel)
+rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
+```
