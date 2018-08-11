@@ -109,6 +109,6 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 Follow me at GitHub: [@cako](https://github.com/cako/)
 
 <br>
-<span style="font-size: 2em">
+<span style="font-size: 1em">
 Find this presentation at: github.com/cako/seg-working-workshop-2018
 </span>
