@@ -29,6 +29,8 @@ August 11, 2018
 
 ---
 
+## sfpgreywfl
+
 #### Common usage
 
 ```bash
@@ -97,3 +99,5 @@ um, uo = uo, up
 
 m8r.floatwrite(vec(uo), nz*nx, Fo)
 ```
+---
+![afdm.jl wavefield](https://s3.eu-west-2.amazonaws.com/cdacosta-londonbucket/wavefield_afdm.mp4)
