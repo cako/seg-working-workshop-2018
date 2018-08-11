@@ -22,9 +22,9 @@ August 11, 2018
 
 #### A timely solution for modelling afficcionados
 
-- Plot wavefields on top of background models
+- Plot wavefields atop background models
 
-- Useful for identifying illumination issues, tunneling, etc.
+- Useful in identifying illumination issues, tunneling effects, etc.
 
 - Highly configurable
 
@@ -67,7 +67,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 #### Finite-difference Julia example
 
-- Finite-difference examples exist for C, C++, Fortran90, and Python
+- Finite-difference examples exist for C, C++, Fortran 90, and Python
 
 - These codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
 
