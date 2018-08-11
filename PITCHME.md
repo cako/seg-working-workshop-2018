@@ -10,7 +10,7 @@
 
 - Plots wavefields on top of background models
 
-- Can be used to investigate wave propagation, such as identifying illumination issues, tunneling, etc.
+- Useful for identifying illumination issues, tunneling, etc.
 
 - Highly configurable
 
@@ -18,7 +18,9 @@
 
 ---
 
-## Template Features
+![Wavefield](https://s3.eu-west-2.amazonaws.com/cdacosta-londonbucket/wavefield_grey.mp4)
+
+---
 
 - Code Presenting |
 - Repo Source, Static Blocks, GIST |
