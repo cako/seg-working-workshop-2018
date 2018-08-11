@@ -28,6 +28,7 @@
 sfpgreywfl < wavefield.rsf
 ```
 
+```bash
 sfpgreywfl < wavefield.rsf bg=velocity.rsf
 ```
 
