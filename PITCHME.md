@@ -6,7 +6,7 @@
 
 ## sfpgreywfl
 
-### A timely solution for modelling afficcionados
+#### A timely solution for modelling afficcionados
 
 - Plots wavefields on top of background models
 
