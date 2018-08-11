@@ -39,6 +39,8 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
     tmin=0.08 savefile=wavefield.gif
 ```
 
+...and many other options
+
 ---
 
 ## Go GitPitch Pro!
