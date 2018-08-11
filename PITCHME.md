@@ -101,3 +101,6 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 ```
 ---
 ![afdm.jl wavefield](https://s3.eu-west-2.amazonaws.com/cdacosta-londonbucket/wavefield_afdm.mp4)
+
+---
+@title[Thank you for your attention!]
