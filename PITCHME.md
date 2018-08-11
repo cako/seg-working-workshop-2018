@@ -29,8 +29,9 @@ sfpgreywfl < wavefield.rsf
 
 sfpgreywfl < wavefield.rsf bg=velocity.rsf
 
-sfpgreywfl < wavefield.rsf bg=velocity.rsf wflcmap=seismic \
-    title="Wavefield" barlabel="Velocity (m/s)" tmin=0.08 savefile=wavefield.gif
+sfpgreywfl < wavefield.rsf bg=velocity.rsf \
+    wflcmap=seismic title="Wavefield" barlabel="Velocity (m/s)" \
+    tmin=0.08 savefile=wavefield.gif
 ```
 
 ---
