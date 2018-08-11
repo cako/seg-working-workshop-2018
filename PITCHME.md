@@ -71,7 +71,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 - These codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
 
-- With a Julia API we can now contribute an example in Julia
+- With a Julia API we can contribute a Julia example
 
 ---
 
