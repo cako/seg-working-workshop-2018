@@ -108,6 +108,8 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 
 - Julia v1.0 has come out, API must be updated!
 
+<br>
+
 - Would be nice if `sfpgreywfl` could also plot sources/receivers
 
 
@@ -117,7 +119,6 @@ m8r.floatwrite(vec(uo), nz*nx, Fo)
 
 Follow me at GitHub: [@cako](https://github.com/cako/)
 
-<br>
 <br>
 <br>
 <div style="font-size: 0.5em">
