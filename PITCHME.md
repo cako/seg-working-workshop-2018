@@ -74,7 +74,7 @@ rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
 #### afdm.jl snippets
 
 ```julia
-ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx .+ idz) .+
+ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx.+idz) .+
 c1.*(uo[3:end-2, 2:end-3] .+ uo[3:end-2, 4:end-1]).*idx .+
 c2.*(uo[3:end-2, 1:end-4] .+ uo[3:end-2, 5:end  ]).*idx .+
 c1.*(uo[2:end-3, 3:end-2] .+ uo[4:end-1, 3:end-2]).*idz .+
