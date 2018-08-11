@@ -80,14 +80,11 @@ c2.*(uo[3:end-2, 1:end-4] .+ uo[3:end-2, 5:end  ]).*idx .+
 c1.*(uo[2:end-3, 3:end-2] .+ uo[4:end-1, 3:end-2]).*idz .+
 c2.*(uo[1:end-4, 3:end-2] .+ uo[5:end,   3:end-2]).*idz
 
-# inject wavelet
+# inject wavelet, scale by velocity, update
 ud = ud .- ww[it] .* rr
-
-# scale by velocity
 ud = ud .* vv .* vv
 up = 2.*uo .- um .+ ud .* dt2
-um = uo
-uo = up
+um, uo = uo, up
 
 m8r.floatwrite(vec(uo), nz*nx, Fo)
-
+```
