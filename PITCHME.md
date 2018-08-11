@@ -23,7 +23,7 @@
 ---
 
 <p><span class="slide-title">Common usage</span></p>
-## Common usage
+#### Common usage
 
 ```bash
 sfpgreywfl < wavefield.rsf
