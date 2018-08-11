@@ -73,25 +73,21 @@ rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
 ---
 #### afdm.jl snippets
 
-<span style="font-size:0.6em">
 ```julia
-for it in 1:nt
-    ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx .+ idz) .+
-    c1.*(uo[3:end-2, 2:end-3] .+ uo[3:end-2, 4:end-1]).*idx .+
-    c2.*(uo[3:end-2, 1:end-4] .+ uo[3:end-2, 5:end  ]).*idx .+
-    c1.*(uo[2:end-3, 3:end-2] .+ uo[4:end-1, 3:end-2]).*idz .+
-    c2.*(uo[1:end-4, 3:end-2] .+ uo[5:end,   3:end-2]).*idz
+ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2] .* (idx .+ idz) .+
+c1.*(uo[3:end-2, 2:end-3] .+ uo[3:end-2, 4:end-1]).*idx .+
+c2.*(uo[3:end-2, 1:end-4] .+ uo[3:end-2, 5:end  ]).*idx .+
+c1.*(uo[2:end-3, 3:end-2] .+ uo[4:end-1, 3:end-2]).*idz .+
+c2.*(uo[1:end-4, 3:end-2] .+ uo[5:end,   3:end-2]).*idz
 
-    # inject wavelet
-    ud = ud .- ww[it] .* rr
+# inject wavelet
+ud = ud .- ww[it] .* rr
 
-    # scale by velocity
-    ud = ud .* vv .* vv
-    up = 2.*uo .- um .+ ud .* dt2
-    um = uo
-    uo = up
-    
-    m8r.floatwrite(vec(uo), nz*nx, Fo)
-end
-```
+# scale by velocity
+ud = ud .* vv .* vv
+up = 2.*uo .- um .+ ud .* dt2
+um = uo
+uo = up
+
+m8r.floatwrite(vec(uo), nz*nx, Fo)
 
