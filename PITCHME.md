@@ -43,7 +43,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 ---
 
-## afdm
+## afdm.jl
 
 #### Finite-difference Julia example
 
@@ -55,7 +55,8 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 ---
 
-#### afdm.jl snippets
+## afdm.jl
+#### Code snippets
 
 ```julia
 import m8r
@@ -71,7 +72,8 @@ rr, nr, dr, or, lr, ur = m8r.rsf_read(ref)
 ```
 
 ---
-#### afdm.jl snippets
+## afdm.jl
+#### Code snippets
 
 ```julia
 ud[3:end-2, 3:end-2] = c0 .* uo[3:end-2, 3:end-2].*(idx.+idz) .+
