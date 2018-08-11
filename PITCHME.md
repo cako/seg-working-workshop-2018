@@ -5,7 +5,7 @@
 #### Extending Madagascar tools
 
 <br>
-<div style="font-size: 1em"
+<div style="font-size: 1em">
 Carlos Alberto da Costa Filho
 
 August 11, 2018
