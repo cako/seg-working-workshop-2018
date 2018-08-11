@@ -51,9 +51,7 @@ sfpgreywfl < wavefield.rsf bg=velocity.rsf \
 
 - With a Julia API we can now contribute an example in Julia
 
-- Testing codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANGUAGE/test/
-
-## Go GitPitch Pro!
+- Testing codes reside in: [@ahay/src](https://github.com/ahay/src)/api/$LANG/test/
 
 <br>
 <div class="left">
