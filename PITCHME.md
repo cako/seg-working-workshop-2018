@@ -4,15 +4,17 @@
 
 ---
 
-### sfpgreywfl wavefield plotter
+## sfpgreywfl
 
 ### A timely solution for modelling afficcionados
 
-<br>
+- Plots wavefields on top of background models
 
-@fa[arrows gp-tip](Press F to go Fullscreen)
+- Can be used to investigate wave propagation, such as identifying illumination issues, tunneling, etc.
 
-@fa[microphone gp-tip](Press S for Speaker Notes)
+- Highly configurable
+
+- Exports to HTML, GIF, MP4
 
 ---
 
